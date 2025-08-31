@@ -10,14 +10,17 @@ Data Preprocessing:
 Handled missing values, duplicates, and outliers.
 Converted categorical variables (e.g., genres, production companies) using encoding.
 Normalized numerical features such as budget and runtime.
+
 Feature Engineering:
 Extracted useful features from release dates (year, month, day).
 Aggregated genre and language metadata into machine-readable formats.
 Created new variables for improving prediction accuracy.
+
 Modeling & Evaluation:
 Implemented Random Forest Regressor for predicting revenue.
 Hyperparameter tuning with GridSearchCV for optimization.
 Evaluated performance using R² Score, RMSE, and MAE.
+
 Visualization:
 Revenue distribution analysis across genres, budgets, and release years.
 Feature importance visualization to understand model decisions.
